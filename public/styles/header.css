@@ -1,0 +1,20 @@
+.header-bar {
+  height: 400px;
+  width: 100%;
+  background-color:orange;
+  background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.below-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+
+  margin-top: 70px;
+}
