@@ -1,0 +1,50 @@
+#tweets-container {
+  border: 5px solid orange;
+  color:palegreen;
+  margin-top: 10px;
+  box-shadow: powderblue;
+
+
+
+}
+
+footer {
+  border: 5px greenyellow;
+  display:flex;
+  justify-content: space-between;
+}
+
+.name {
+  display:flex;
+  justify-content: space-around;
+  width: 200px;
+}
+
+.username {
+  display:flex;
+  justify-content: right;
+  align-items: flex-start;
+}
+
+footer span {
+  padding-left: 10px;
+
+}
+
+.tweet:hover {
+  box-shadow: 10px 10px grey;
+}
+.fa-heart:hover {
+  color: burlywood;
+}
+.fa-flag:hover{
+  color: burlywood;
+}
+.fa-retweet:hover{
+  color: burlywood;
+}
+
+.article-tweet>div {
+  display: flex;
+  align-items: center;
+}

@@ -22,6 +22,8 @@
     <link rel="stylesheet" href="/styles/header.css" type="text/css" />
     <link rel="stylesheet" href="/styles/main.css" type="text/css" />
     <link rel="stylesheet" href="/styles/new-tweet.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/tweets-container.css" type="text/css" />
+
 
 
 
@@ -31,6 +33,8 @@
 
     <!-- App JS -->
     <script type="text/javascript" src="/scripts/client.js"></script>
+    <script type="text/javascript" src="/scripts/composer-char-counter.js"></script>
+
   </head>
 
   <body>
@@ -58,10 +62,10 @@
   </header>
 
     <!-- Page-specific (main) content here -->
-    <main class="container"></main>
+    <main class="container">
     <section class="new-tweet">
       <h2>Compose Tweet</h2>
-      <form>
+      <form action="/tweets" method="POST">
         <label for="tweet-text">What are you humming about?</label>
         <textarea name="text" id="tweet-text"></textarea>
         <div>
@@ -70,6 +74,36 @@
         </div>
       </form>
     </section>
+    <section id="tweets-container">
+      <!-- tweets will be loaded here -->
+    <article class="tweets">
+      <header class="article-tweets">
+        <div class="name">
+          <i class="fas fa-user"></i>
+          <h5>Newton</h5>
+        </div>
+     <h5 class="username">
+       @isaac
+     </h5>
+      </header>
+      <div class="writetweet">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quaerat debitis atque dolorem assumenda nesciunt commodi quis esse fugiat ducimus, provident cum soluta ipsa facere sit ullam impedit labore omnis?</p>
+      </div>
+ <footer>
+   <span>5days</span>
+   <div class="icons">
+    <i class="fas fa-flag"></i>
+    <i class="fas fa-retweet"></i>
+    <i class="fas fa-heart"></i>
+
+   </div>
+ </footer>
+    </article>
+  
+  </section>
+    <button id='page-scrollup-button'><i class="fas fa-angle-double-up"></i></button>
+  </main>
+    </main>
     </div>
   </body>
 </html>
