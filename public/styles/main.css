@@ -6,4 +6,12 @@
   margin-left: 5%;
   margin-right: 5%;
   background-color: rgb(248 248 248);
+  background-color: #f4f1ec;
+}
+
+main {
+  width: 90%;
+  color: black;
+  margin: 0 auto;
+  background-color: #f4f1ec;
 }
