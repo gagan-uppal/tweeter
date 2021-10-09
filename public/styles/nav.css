@@ -34,3 +34,7 @@
   .fas {
     color: red;
   }
+
+  .fas:hover {
+    color: orange;
+  }
