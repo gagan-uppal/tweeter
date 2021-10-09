@@ -1,3 +1,5 @@
+
+
 $(document).ready(function() {
   // --- our code goes here ---
   $('#tweet-text').on('focus blur keyup change paste', function() {
