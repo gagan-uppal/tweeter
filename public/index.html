@@ -40,48 +40,47 @@
     <!-- Top nav bar (fixed) -->
     <nav id="nav-bar">
       <span class= "logo">tweeter</span>
-      <div class= "sidebar" >
+       <div class= "sidebar" >
         <span><strong>Write</strong> a new tweet</span>
-        <i class="fas fa-angle-double-down"></i>
+         <i class="fas fa-angle-double-down"></i>
 
-      </div>
+       </div>
 
     </nav>
-    <div class='below-nav'>
 
-    <header class='header-bar'>
-      <div>
+    <div class='below-nav'>
+      <header class='header-bar'>
+       <div>
           <img class='profile-image' src="/images/profile-hex.png"> 
-      </div>
-      <br>
-      <div>
+       </div>
+       <br>
+       <div>
           <h2>Gagan U.</h2>
-      </div>
-  </header>
+       </div>
+    </header>
 
     <!-- Page-specific (main) content here -->
     <main class="container">
-    <section class="new-tweet">
-      <h2>Compose Tweet</h2>
-      <form class='new-tweet form' action="/tweets" method="POST">
-        <label for="tweet-text">What are you humming about?</label>
-        <textarea name="text" id="tweet-text"></textarea>
-        <div>
-          <button type="submit" class='tweet-button'>Tweet</button>
-          <div id='alert'></div>
-          <output name="counter" class="counter" for="tweet-text">140</output>
-        </div>
-      </form>
-    </section>
-    <section class="tweets-container">
-      <!-- tweets will be loaded here -->
+     <section class="new-tweet">
+      <div id='alert'></div>
+
+        <h2>Compose Tweet</h2>
       
-      
-    
-  </section>
-    <button id='page-scrollup-button'><i class="fas fa-angle-double-up"></i></button>
-  </main>
+           <form id="submitTweet" class='new-tweet form' action="/tweets" method="POST">
+            <label for="tweet-text">What are you humming about?</label>
+            <textarea name="text" id="tweet-text"></textarea>
+              <div class="tweet-footer">
+               <button type="submit" class='tweet-button'>Tweet</button>
+               <output name="counter" class="counter" for="tweet-text">140</output>
+             </div>
+           </form>
+      </section>
+           <section class="tweets-container">
+              <!-- tweets will be loaded here -->
+           </section>
+            <button id='page-scrollup-button'><i class="fas fa-angle-double-up"></i></button>
     </main>
-    </div>
+    
+     </div>
   </body>
 </html>
