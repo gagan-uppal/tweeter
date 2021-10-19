@@ -4,8 +4,6 @@
   box-shadow: 20px solid royalblue;
   padding-bottom: 10px black;
   background-color: #f4f1ec;
-
-
 }
 
 footer {
@@ -15,19 +13,15 @@ footer {
   padding: 0% 3% 3% 3%;
 }
 
-
-
 .name {
   display:flex;
   justify-content: space-between;
-  
 }
 
 .nametag {
   display: flex;
   padding: 15px;
 }
-
 
 .username {
   display:flex;
@@ -37,19 +31,20 @@ footer {
 
 footer span {
   padding-left: 10px;
-  
-
 }
 
 .tweet:hover {
   box-shadow: 10px 10px red;
 }
+
 .fa-heart:hover {
   color: burlywood;
 }
+
 .fa-flag:hover{
   color: burlywood;
 }
+
 .fa-retweet:hover{
   color: burlywood;
 }
@@ -59,18 +54,11 @@ footer span {
   align-items: center;
 }
 
-
-
-
-
-
 .tweets {
   border: 3px solid black;
- margin-top: 20px;
- box-shadow: 10px 10px solid royalblue;
- border-bottom: 3px solid black;
- 
-
+  margin-top: 20px;
+  box-shadow: 10px 10px solid royalblue;
+  border-bottom: 3px solid black;
 }
 
 .tweets:hover {
@@ -82,7 +70,7 @@ footer span {
   display: flex;
   justify-content: right;
   align-items: flex-start;
-padding: 15px;
+  padding: 15px;
   color: grey;
 }
 
@@ -94,5 +82,9 @@ padding: 15px;
 
 .new-tweet {
   background-color: #f4f1ec;
+}
 
+.tweet-footer {
+ display: flex;
+ justify-content: space-between;
 }
