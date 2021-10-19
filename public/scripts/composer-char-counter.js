@@ -2,7 +2,7 @@
 
 $(document).ready(function() {
   // --- our code goes here ---
-  $('#tweet-text').on('focus blur keyup change paste', function() {
+  $('#tweet-text').on('input', function() {
 
     let tweetText = $(this).val();
     let tweetLength = tweetText.length;
